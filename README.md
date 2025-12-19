@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+# 🚀 WTech - GitHub Viewer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O **WTech** é uma aplicação moderna desenvolvida em **React** e **TypeScript** para consulta de perfis do GitHub.  
+A ferramenta permite pesquisar utilizadores, visualizar informações detalhadas de perfil e listar repositórios de forma organizada e responsiva.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 💻 Sobre o Projeto
 
-### `npm start`
+Este projeto foi construído como parte do **Desafio do Módulo 3**, com o objetivo de criar uma interface fluída que consome a API do GitHub.  
+O design foi implementado com base em protótipos do **Figma**, priorizando a experiência do utilizador com feedbacks visuais de carregamento e tratamento de erros.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ✨ Funcionalidades
 
-### `npm test`
+- **Busca por Utilizador**: Campo de pesquisa com validação para encontrar qualquer perfil no GitHub.  
+- **Feedback de Carregamento**: Ecrã de loading centralizado e animado durante as chamadas à API.  
+- **Perfil Detalhado**: Exibição de avatar, nome e biografia do utilizador consultado.  
+- **Listagem de Repositórios**: Cards estilizados apresentando o nome e a descrição de cada projeto.  
+- **Página de Especificações**: Visualização detalhada de cada repositório, incluindo privacidade, linguagem e link direto, utilizando um sistema de sombras (*box shadow*) para elevação visual.  
+- **Responsividade**: Layout adaptado para Desktop, Tablet e Mobile (com a remoção estratégica da logo lateral em ecrãs pequenos).  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tecnologias
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React (Vite)**  
+- **TypeScript**  
+- **Tailwind CSS** (Estilização e Responsividade)  
+- **React Router Dom** (Gestão de Rotas)  
+- **Axios** (Integração com API GitHub)  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Como Executar a Aplicação
 
-### `npm run eject`
+Clonar o repositório:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+git clone https://github.com/eduarda-guimaraes/wtech.git
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Instalar dependências:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Iniciar o servidor de desenvolvimento:
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📝 Requisitos Técnicos Atendidos
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [x] Integração com as APIs **/users/{username}** e **/repos**  
+- [x] Persistência de dados entre rotas via **state** do `useLocation`  
+- [x] Validação de inputs e tratamento de erro (**Toast**)  
+- [x] Componente de **Loading** personalizado com animação
+- [x] Design **responsivo** para dispositivos móveis
+
+## 🙋‍♀️ Desenvolvido por
+
+| [<img src="https://avatars.githubusercontent.com/eduarda-guimaraes" width="100px;" alt="Foto de perfil do GitHub de Eduarda Guimarães"/>](https://github.com/eduarda-guimaraes) |
+| :---: |
+| **Eduarda Guimarães** |
