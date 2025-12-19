@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/wtech/static/css/main.4b425310.css",
-    "main.js": "/wtech/static/js/main.3beeda06.js",
+    "main.js": "/wtech/static/js/main.469863b8.js",
     "static/media/wtech-logoname.png": "/wtech/static/media/wtech-logoname.92a4651c08824fa84f67.png",
     "static/media/wtech-logoname-blue.png": "/wtech/static/media/wtech-logoname-blue.e3405f31cd2a4a850219.png",
     "static/media/loading-circle.png": "/wtech/static/media/loading-circle.ac99e62401cdb3889911.png",
     "index.html": "/wtech/index.html",
     "main.4b425310.css.map": "/wtech/static/css/main.4b425310.css.map",
-    "main.3beeda06.js.map": "/wtech/static/js/main.3beeda06.js.map"
+    "main.469863b8.js.map": "/wtech/static/js/main.469863b8.js.map"
   },
   "entrypoints": [
     "static/css/main.4b425310.css",
-    "static/js/main.3beeda06.js"
+    "static/js/main.469863b8.js"
   ]
 }
